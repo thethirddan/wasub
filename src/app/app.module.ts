@@ -5,13 +5,13 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
-import { MissionComponent } from './mission/mission.component';
 import { RulesComponent } from './rules/rules.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { MissionStatementComponent } from './mission-statement/mission-statement.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +19,12 @@ import { HomeComponent } from './home/home.component';
     NavComponent,
     FooterComponent,
     AboutComponent,
-    MissionComponent,
     RulesComponent,
     RegistrationComponent,
     GalleryComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    MissionStatementComponent
   ],
   imports: [
     BrowserModule,
