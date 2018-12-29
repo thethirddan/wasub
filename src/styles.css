@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+.action-button {
+  background-color: orange; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
